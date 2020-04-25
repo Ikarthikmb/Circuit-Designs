@@ -1,7 +1,7 @@
 # Ciruit-Designs
 
 ## Contents:
-- [Breadboard power supply](#breadboard-power-supply)
+1. [Breadboard power supply](#breadboard-power-supply)
 
 ---
 
