@@ -1,4 +1,4 @@
-# Ciruit-Designs
+# Circuit-Designs
 
 ## Contents:
 1. [Breadboard power supply](#1-breadboard-power-supply)
