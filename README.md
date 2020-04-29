@@ -19,7 +19,7 @@
 ## [2-Raspberry Pi FS Hat v01](#contents)
 
 - Connecting a DHT11/12 sensor to the raspberry pi. 
-- To view/modify the source file, download the repository and navigate to `2-Raspberry Pi FS Hat v01` folder and open the `2-Raspberry Pi FS Hat v01.pro` project file in KiCAD to view/modify the source file.
+- To view/modify the source file, download the repository and navigate to `2-Raspberry Pi FS Hat v01` folder and open the `2-Raspberry Pi FS Hat v01.pro` project file in KiCAD.
 
 |3D View|![Raspberry Pi FS Hat v01 pcb](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/2-Raspberry%20Pi%20FS%20Hat%20v01/2-Raspberry%20Pi%20FS%20Hat%20v01.jpg)|
 |---|---|
