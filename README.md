@@ -3,6 +3,7 @@
 ## Contents:
 1. [Breadboard power supply](#1-breadboard-power-supply)
 2. [Raspberry Pi FS Hat v01](#2-raspberry-pi-fs-hat-v01)
+3. [Arduino Battery Powered clone with extended EEPROM and clock(Project BACEE)](#5-project-bacee)
 
 ---
 
