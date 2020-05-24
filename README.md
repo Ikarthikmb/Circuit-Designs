@@ -25,12 +25,13 @@
 |---|---|
 |Schematic Diagram| ![Raspberry Pi FS Hat v01 schematic color](https://github.com/Ikarthikmb/Circuit-Designs/blob/master/2-Raspberry%20Pi%20FS%20Hat%20v01/Raspberry%20Pi%20FS%20Hat%20v01%20schematic%20color.jpg "Click to view image")|
 
-## [3-Project BACEE](#contents)
+## [5-Project BACEE](#contents)
 
 |![front view](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/5-Project%20BACEE/5-Project%20BACEE-3D%20view%20front.jpg)|![Back view](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/5-Project%20BACEE/5-Project%20BACEE-3D%20view%20back.jpg)|
 |---|---|
 |Front view|Back view|
 
-This is Arduino Battery Powered clone with extended EEPROM and clock. 
+- This is Arduino Battery Powered clone with extended EEPROM and clock. 
+- To view/modify the source file, download the repository and navigate to `5-Project BACEE` folder and open the `5-Project BACEE.pro` project file in KiCAD or [click](https://github.com/Ikarthikmb/Circuit-Designs/tree/master/5-Project%20BACEE) here to navigate to repo.
 
 ---
