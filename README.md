@@ -38,5 +38,6 @@
 ## OP-Amp Log Amplifier
 | ![schematic](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/6-OpAmp/Log%20Amplifier/OP-Amp-Log-Amplifier.png) | ![wave](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/6-OpAmp/Log%20Amplifier/OP-Amp-Log-Amplifier%20waveform.png) |
 |---|---|
+A log amplifier is an amplifier for which the output voltage Vout is K times the natural log of the input voltage Vin. Logarithmic amplifiers are used to perform mathematical operations like multiplication, division and exponentiation.
 
 ---
