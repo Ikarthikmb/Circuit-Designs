@@ -4,6 +4,7 @@
 1. [Breadboard power supply](#1-breadboard-power-supply)
 2. [Raspberry Pi FS Hat v01](#2-raspberry-pi-fs-hat-v01)
 3. [Arduino Battery Powered clone with extended EEPROM and clock(BACEE)](#5-project-bacee)
+4. [Op Amp Logarthmic amplifier](#6-op-amp-log-amplifier)
 
 ---
 
@@ -35,7 +36,7 @@
 - This is Arduino Battery Powered clone with extended EEPROM and clock. 
 - To view/modify the source file, download the repository and navigate to `5-Project BACEE` folder and open the `5-Project BACEE.pro` project file in KiCAD or click [here](https://github.com/Ikarthikmb/Circuit-Designs/tree/master/5-Project%20BACEE) to navigate to repo.
 
-## OP-Amp Log Amplifier
+## [6-OP-Amp Log Amplifier](#contents)
 | ![schematic](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/6-OpAmp/Log%20Amplifier/OP-Amp-Log-Amplifier.png) | ![wave](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/6-OpAmp/Log%20Amplifier/OP-Amp-Log-Amplifier%20waveform.png) |
 |---|---|
 A log amplifier is an amplifier for which the output voltage Vout is K times the natural log of the input voltage Vin. Logarithmic amplifiers are used to perform mathematical operations like multiplication, division and exponentiation.
