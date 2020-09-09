@@ -35,4 +35,8 @@
 - This is Arduino Battery Powered clone with extended EEPROM and clock. 
 - To view/modify the source file, download the repository and navigate to `5-Project BACEE` folder and open the `5-Project BACEE.pro` project file in KiCAD or click [here](https://github.com/Ikarthikmb/Circuit-Designs/tree/master/5-Project%20BACEE) to navigate to repo.
 
+## OP-Amp Log Amplifier
+| ![schematic](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/6-OpAmp/Log%20Amplifier/OP-Amp-Log-Amplifier.png) | ![wave](https://raw.githubusercontent.com/Ikarthikmb/Circuit-Designs/master/6-OpAmp/Log%20Amplifier/OP-Amp-Log-Amplifier%20waveform.png) |
+|---|---|
+
 ---
