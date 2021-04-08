@@ -1,0 +1,194 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:IRF740 Q1
+U 1 1 606F449E
+P 5650 3600
+F 0 "Q1" H 5854 3646 50  0000 L CNN
+F 1 "IRF740" H 5854 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5900 3525 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/91054/91054.pdf" H 5650 3600 50  0001 L CNN
+	1    5650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 606F7491
+P 6250 4050
+F 0 "L2" V 6440 4050 50  0000 C CNN
+F 1 "2u" V 6349 4050 50  0000 C CNN
+F 2 "" H 6250 4050 50  0001 C CNN
+F 3 "~" H 6250 4050 50  0001 C CNN
+	1    6250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 606F7A11
+P 5250 3100
+F 0 "L1" V 5440 3100 50  0000 C CNN
+F 1 "200n" V 5349 3100 50  0000 C CNN
+F 2 "" H 5250 3100 50  0001 C CNN
+F 3 "~" H 5250 3100 50  0001 C CNN
+	1    5250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 606F80C1
+P 4750 3400
+F 0 "C1" H 4865 3446 50  0000 L CNN
+F 1 "22p" H 4865 3355 50  0000 L CNN
+F 2 "" H 4788 3250 50  0001 C CNN
+F 3 "~" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 606F9010
+P 6700 3650
+F 0 "C3" H 6818 3696 50  0000 L CNN
+F 1 "100u 16V" H 6818 3605 50  0000 L CNN
+F 2 "" H 6738 3500 50  0001 C CNN
+F 3 "~" H 6700 3650 50  0001 C CNN
+	1    6700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 606F96D5
+P 5200 4050
+F 0 "C2" V 4948 4050 50  0000 C CNN
+F 1 "1u" V 5039 4050 50  0000 C CNN
+F 2 "" H 5238 3900 50  0001 C CNN
+F 3 "~" H 5200 4050 50  0001 C CNN
+	1    5200 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 60704A5D
+P 3550 4500
+F 0 "#PWR02" H 3550 4250 50  0001 C CNN
+F 1 "GND" H 3555 4327 50  0000 C CNN
+F 2 "" H 3550 4500 50  0001 C CNN
+F 3 "" H 3550 4500 50  0001 C CNN
+	1    3550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 60704D5A
+P 6700 4250
+F 0 "#PWR06" H 6700 4000 50  0001 C CNN
+F 1 "GND" H 6705 4077 50  0000 C CNN
+F 2 "" H 6700 4250 50  0001 C CNN
+F 3 "" H 6700 4250 50  0001 C CNN
+	1    6700 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 4950 0    50   ~ 0
+.tran 0 20u 0 1ns
+$Comp
+L Device:R R1
+U 1 1 60712549
+P 4100 3600
+F 0 "R1" V 3893 3600 50  0000 C CNN
+F 1 "R" V 3984 3600 50  0000 C CNN
+F 2 "" V 4030 3600 50  0001 C CNN
+F 3 "~" H 4100 3600 50  0001 C CNN
+	1    4100 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3600 4750 3600
+Wire Wire Line
+	5750 3400 5750 3100
+Wire Wire Line
+	5750 3100 5400 3100
+Wire Wire Line
+	5100 3100 4750 3100
+Wire Wire Line
+	4750 3100 4750 3250
+Wire Wire Line
+	4750 3550 4750 3600
+Connection ~ 4750 3600
+Wire Wire Line
+	4750 3600 4250 3600
+Wire Wire Line
+	4750 3600 4750 4050
+Wire Wire Line
+	4750 4050 5050 4050
+Wire Wire Line
+	5350 4050 5750 4050
+Wire Wire Line
+	5750 4050 5750 3800
+Wire Wire Line
+	6100 4050 5750 4050
+Connection ~ 5750 4050
+Wire Wire Line
+	6400 4050 6700 4050
+Wire Wire Line
+	6700 4050 6700 3800
+Wire Wire Line
+	6700 3500 6700 3150
+Wire Wire Line
+	6700 3100 5750 3100
+Connection ~ 5750 3100
+$Comp
+L pspice:VSOURCE V1
+U 1 1 607147EE
+P 3550 4000
+F 0 "V1" H 3778 4046 50  0000 L CNN
+F 1 "5.5" H 3778 3955 50  0000 L CNN
+F 2 "" H 3550 4000 50  0001 C CNN
+F 3 "~" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3600 3550 3600
+Wire Wire Line
+	3550 3600 3550 3700
+Wire Wire Line
+	3550 4300 3550 4500
+Wire Wire Line
+	6700 4050 6700 4250
+Connection ~ 6700 4050
+$Comp
+L pspice:VSOURCE V2
+U 1 1 6071CBA2
+P 7600 3600
+F 0 "V2" H 7828 3646 50  0000 L CNN
+F 1 "30" H 7828 3555 50  0000 L CNN
+F 2 "" H 7600 3600 50  0001 C CNN
+F 3 "~" H 7600 3600 50  0001 C CNN
+	1    7600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3300 7600 3150
+Wire Wire Line
+	7600 3150 6700 3150
+Connection ~ 6700 3150
+Wire Wire Line
+	6700 3150 6700 3100
+Wire Wire Line
+	7600 3900 7600 4050
+Wire Wire Line
+	7600 4050 6700 4050
+$EndSCHEMATC
